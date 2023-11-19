@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A1</title>
+    <style>
+        body {
+  font-family: "Roboto Mono", monospace;
+  text-align: center;
+  background-image: url("https://images4.alphacoders.com/131/1318503.jpeg");
+  background-color: #000000;
+  background-size: cover;
+  background-position: center top;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+.container {
+  text-align: center;
+  padding: 20px;
+  bottom: 200px;
+}
+
+.page-title {
+  color: #ffffff;
+  margin: 0 0 5px;
+}
+
+.page-subtitle {
+  color: #ffffff;
+  margin-top: 2px;
+}
+
+.page-logo {
+  width: 200px;
+}
+
+
+body > img {
+  margin: 0 10px;
+  bottom: 250px;
+}
+
+img {
+  max-height: 250px;
+
+}
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1 class="page-title">
+          Conversor de moedas
+        <p> currency converter </p>
+      </div>
+        <img src="https://purepng.com/public/uploads/large/purepng.com-moneysmoneypaymentrepaymentspecial-papervaluable-exchangeall-debts-public-and-privatedollars-1421526582796zav4r.png">
+      </a>
+    <script>
+        let name1;
+        let quantidadeReal;
+        name1 = prompt ('Insira o seu nome:')
+        quantidadeReal = prompt ('Insira o valor em reais que deseja converter:')
+        let cotacao = 0.21
+        let valorEmReal = quantidadeReal * cotacao
+        valorEmReal = valorEmReal.toFixed(2)
+        window.alert (`Olá ${name1}! tudo ok? O valor em Dolares é: US$ ${valorEmReal}`)
+</script>
+</body>
+</html>
